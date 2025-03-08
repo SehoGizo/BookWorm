@@ -1,6 +1,8 @@
 package BookWorm;
-interface Planet {
-    String getName();
-    String getEmoji();
+public interface Planet {
+    String getEmoji();  // Returns the planet emoji for display
+    double getMass();
+    double getRadius();
+    double getGravity();
     double getDistanceFromSun();
 }
